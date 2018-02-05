@@ -1,0 +1,393 @@
+/* body styling */
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+/* main container */
+.container {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Calibri, sans-serif;
+    font-size: 1.8vmin;
+}
+
+/* top title section */
+.titleSection {
+    padding: 2vmin;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(to right, #eaead0, #c7c7a5);
+}
+
+/* top title section icon */
+.titleSection i {
+    float: left;
+    margin-right: 1%;
+    font-size: 2.2vmin;
+    color: #598c07;
+}
+
+/* Listing title styling */
+.titleSection .listingTitle {
+    font-weight: bold;
+}
+
+/* expand/collapse button styling */
+#expandBtn{
+    float: right;
+    cursor: pointer;
+}
+
+/* information box styling */
+.expandedInfo {
+    box-shadow: 3px 0 0 0 #f9f9f9;
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #efefef;
+    padding: 2vmin;
+}
+
+/* styling for buttons */
+.buttonSection {
+    cursor: pointer;
+    color: #598c07;
+    border-top: 2px solid #eaead0;
+    border-bottom: 1px solid #efefef;
+    height: 3.5vmin;
+    box-shadow: 0 3px 0 0 #f9f9f9;
+    height: 4.5vmin;
+}
+
+/* ipad image styling */
+.productImage{
+    width: 25%;
+}
+
+/* previous button styling */
+.prevButton {
+    float: left;
+    width: 50%;
+    border-left: 1px solid #efefef;
+    margin-top: 0.1%;
+}
+
+/* previous button wording styling */
+.prevButtonTitle {
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+
+/* previous button icon styling */
+.prevButton i {
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 3.5vmin;
+}
+
+/* next button styling */
+.nextButton {
+    float: right;
+    width: 49%;
+    border-right: 1px solid #efefef;
+    box-shadow: 3px 0 0 0 #f9f9f9;
+}
+
+/* next button wording styling */
+.nextButtonTitle {
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 1%;
+    float: right;
+    text-decoration: underline;
+}
+
+/* next button icon styling */
+.nextButton i {
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 3.5vmin;
+}
+
+/* information styling */
+.productDescription {
+    float: right;
+    width: 72%;
+    font-size: 1.8vmin;
+    height: 12vh;
+}
+
+/* information title styling */
+.sectionTitle {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/**** Media queries for mobile responsiveness ******/
+/**** pointer:coarse used to target a wide range of mobile devices ******/
+@media (pointer:coarse) 
+and (orientation: landscape) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    /* main container */
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Calibri, sans-serif;
+        font-size: 1.5vw;
+    }
+
+    /* top title section */
+    .titleSection {
+        padding: 2vmin;
+        border-radius: 10px 10px 0 0;
+        background: linear-gradient(to right, #eaead0, #c7c7a5);
+    }
+
+    /* top title section icon */
+    .titleSection i {
+        float: left;
+        margin-right: 1%;
+        font-size: 2.2vmin;
+        color: #598c07;
+    }
+
+    /* Listing title styling */
+    .titleSection .listingTitle {
+        font-weight: bold;
+    }
+
+    /* expand/collapse button styling */
+    #expandBtn{
+        float: right;
+        cursor: pointer;
+    }
+
+    /* information box styling */
+    .expandedInfo {
+        box-shadow: 3px 0 0 0 #f9f9f9;
+        border-right: 1px solid #efefef;
+        border-left: 1px solid #efefef;
+        padding: 2vmin;
+    }
+
+    /* styling for buttons */
+    .buttonSection {
+        cursor: pointer;
+        color: #598c07;
+        border-top: 2px solid #eaead0;
+        border-bottom: 1px solid #efefef;
+        height: 3.5vmin;
+        box-shadow: 0 3px 0 0 #f9f9f9;
+    }
+
+    /* ipad image styling */
+    .productImage{
+        width: 25%;
+    }
+
+    /* previous button styling */
+    .prevButton {
+        float: left;
+        width: 50%;
+        border-left: 1px solid #efefef;
+        margin-top: 0.1%;
+    }
+
+    /* previous button wording styling */
+    .prevButtonTitle {
+        vertical-align: -webkit-baseline-middle;
+        margin-top: 1%;
+        text-decoration: underline;
+    }
+
+    /* previous button icon styling */
+    .prevButton i {
+        float: left;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 3.5vmin;
+        margin-top: 1%;
+    }
+
+    /* next button styling */
+    .nextButton {
+        float: right;
+        width: 49%;
+        border-right: 1px solid #efefef;
+        box-shadow: 3px 0 0 0 #f9f9f9;
+    }
+
+    /* next button wording styling */
+    .nextButtonTitle {
+        vertical-align: -webkit-baseline-middle;
+        margin-top: 1%;
+        float: right;
+        text-decoration: underline;
+    }
+
+    /* next button icon styling */
+    .nextButton i {
+        float: right;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 3.5vmin;
+        margin-top: 1%;
+    }
+
+    /* information styling */
+    .productDescription {
+        float: right;
+        width: 72%;
+        font-size: 1.5vw;
+        height: 25vh;
+        overflow-y: scroll;
+    }
+
+    /* information title styling */
+    .sectionTitle {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
+
+@media (pointer:coarse) 
+and (orientation: portrait) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+
+    /* main container */
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: Calibri, sans-serif;
+        font-size: 2.5vmin;
+    }
+
+    /* top title section */
+    .titleSection {
+        padding: 2vmin;
+        border-radius: 10px 10px 0 0;
+        background: linear-gradient(to right, #eaead0, #c7c7a5);
+    }
+
+    /* top title section icon */
+    .titleSection i {
+        float: left;
+        margin-right: 1%;
+        font-size: 2.2vmin;
+        color: #598c07;
+    }
+
+    /* Listing title styling */
+    .titleSection .listingTitle {
+        font-weight: bold;
+    }
+
+    /* expand/collapse button styling */
+    #expandBtn{
+        float: right;
+        cursor: pointer;
+    }
+
+    /* information box styling */
+    .expandedInfo {
+        box-shadow: 3px 0 0 0 #f9f9f9;
+        border-right: 1px solid #efefef;
+        border-left: 1px solid #efefef;
+        padding: 2vmin;
+    }
+
+    /* styling for buttons */
+    .buttonSection {
+        cursor: pointer;
+        color: #598c07;
+        border-top: 2px solid #eaead0;
+        border-bottom: 1px solid #efefef;
+        height: 3.5vmin;
+        box-shadow: 0 3px 0 0 #f9f9f9;
+    }
+
+    /* ipad image styling */
+    .productImage{
+        width: 25%;
+    }
+
+    /* previous button styling */
+    .prevButton {
+        float: left;
+        width: 50%;
+        border-left: 1px solid #efefef;
+        margin-top: 0.1%;
+    }
+
+    /* previous button wording styling */
+    .prevButtonTitle {
+        vertical-align: -webkit-baseline-middle;
+        margin-top: 1%;
+        text-decoration: underline;
+    }
+
+    /* previous button icon styling */
+    .prevButton i {
+        float: left;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 3.5vmin;
+        margin-top: 1%;
+    }
+
+    /* next button styling */
+    .nextButton {
+        float: right;
+        width: 49%;
+        border-right: 1px solid #efefef;
+        box-shadow: 3px 0 0 0 #f9f9f9;
+    }
+
+    /* next button wording styling */
+    .nextButtonTitle {
+        vertical-align: -webkit-baseline-middle;
+        margin-top: 1%;
+        float: right;
+        text-decoration: underline;
+    }
+
+    /* next button icon styling */
+    .nextButton i {
+        float: right;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 3.5vmin;
+        margin-top: 1%;
+    }
+
+    /* information styling */
+    .productDescription {
+        float: right;
+        width: 72%;
+        font-size: 1.5vmin;
+        height: 8vh;
+        overflow-y: scroll;
+    }
+
+    /* information title styling */
+    .sectionTitle {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}

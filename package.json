@@ -1,0 +1,15 @@
+{
+  "name": "gtautest-yassin-saudie",
+  "version": "1.0.0",
+  "description": "Gumtree Australia Test - Solution by Yassin Saudie",
+  "main": "index.html",
+  "author": "Yassin Saudie",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysaudie/gtau-frontend-test-solution-yassin-saudie.git"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
